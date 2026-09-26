@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090a0d">
+<meta name="description" content="Abdullah Sultan — Electrical Engineering student, interactive systems and engineering simulations.">
+<title>Abdullah Sultan — Engineering Experience</title>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="grain" aria-hidden="true"></div>
+<header class="topbar" id="topbar">
+  <a class="brand" href="#home" data-nav aria-label="Abdullah Sultan home"><span class="brand-mark">AS</span><span class="brand-name">ABDULLAH SULTAN</span></a>
+  <nav class="nav" aria-label="Primary navigation">
+    <a href="#home" data-nav data-section="home" data-i18n="nav.home">Home</a>
+    <a href="#systems" data-nav data-section="systems" data-i18n="nav.systems">Systems</a>
+    <a href="#field" data-nav data-section="field" data-i18n="nav.field">Field</a>
+    <a href="#contact" data-nav data-section="contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+  <div class="controls">
+    <button class="pill-control" id="langBtn" type="button" aria-label="Switch language"><b>EN</b><i></i><span>AR</span></button>
+    <button class="pill-control" id="themeBtn" type="button" aria-label="Switch theme"><b id="themeGlyph">◐</b><i></i><span data-i18n="theme">Theme</span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero section" id="home" data-section-root>
+  <canvas id="coreCanvas" aria-hidden="true"></canvas>
+  <div class="hero-vignette" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-copy reveal">
+    <p class="eyebrow" data-i18n="hero.kicker">ENGINEERING EXPERIENCE / 2026</p>
+    <h1><span>ABDULLAH</span><em>SULTAN</em></h1>
+    <p class="hero-lead" data-i18n="hero.lead">Electrical Engineering Student · Interactive Systems · Hardware & Simulation</p>
+    <div class="hero-meta"><span data-i18n="hero.location">Basrah, Iraq</span><span data-i18n="hero.university">University of Basrah</span><span data-i18n="hero.year">4th Year · Bologna System</span></div>
+    <a class="enter-cue" href="#origin" data-nav><span data-i18n="hero.enter">ENTER EXPERIENCE</span><i>↓</i></a>
+  </div>
+  <div class="core-readout" aria-hidden="true"><span data-i18n="core.readout">CORE / FIELD</span><strong id="coreValue">00.00</strong><small data-i18n="core.intensity">FIELD INTENSITY</small></div>
+  <div class="hero-side" aria-hidden="true"><span>00</span><i></i><span>SCROLL TO ACTIVATE</span></div>
+</section>
+
+<section class="story section" id="origin">
+  <div class="section-marker">01</div>
+  <div class="story-copy reveal">
+    <p class="eyebrow" data-i18n="origin.kicker">ORIGIN</p>
+    <h2 data-i18n="origin.title">Before the degree, there was the work.</h2>
+    <p data-i18n="origin.body">Practical electrical work shaped the way I see systems: distribution boards, breaker selection, wiring, load thinking and safe execution. Engineering study gave that practical instinct a deeper language.</p>
+    <div class="facts"><article><b>01</b><span data-i18n="origin.f1">Residential electrical work</span></article><article><b>02</b><span data-i18n="origin.f2">Distribution & protection</span></article><article><b>03</b><span data-i18n="origin.f3">Safety-first field thinking</span></article></div>
+  </div>
+  <div class="orbit-diagram reveal" id="originDiagram" aria-hidden="true"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit-node node-source">SOURCE</div><div class="orbit-node node-protection">PROTECTION</div><div class="orbit-node node-load">LOAD</div><div class="signal-dot"></div></div>
+</section>
+
+<section class="engineering section" id="engineering">
+  <div class="section-marker">02</div>
+  <div class="section-head reveal"><p class="eyebrow" data-i18n="eng.kicker">ENGINEERING</p><h2 data-i18n="eng.title">From equations to behavior.</h2><p data-i18n="eng.body">Three completed academic years across electrical systems, signals, machines, control and electronics. The fourth year keeps turning those foundations into systems thinking.</p></div>
+  <div class="domain-track">
+    <article class="domain reveal"><span>01</span><h3 data-i18n="eng.d1">Power</h3><p data-i18n="eng.p1">Power systems, stability and electrical machines.</p><i></i></article>
+    <article class="domain reveal"><span>02</span><h3 data-i18n="eng.d2">Signals</h3><p data-i18n="eng.p2">Frequency, amplitude, response and signal behavior.</p><i></i></article>
+    <article class="domain reveal"><span>03</span><h3 data-i18n="eng.d3">Control</h3><p data-i18n="eng.p3">Feedback, measurement and system response.</p><i></i></article>
+    <article class="domain reveal"><span>04</span><h3 data-i18n="eng.d4">Simulation</h3><p data-i18n="eng.p4">MATLAB, Simulink and Multisim as engineering workspaces.</p><i></i></article>
+  </div>
+</section>
+
+<section class="method section" id="method">
+  <div class="section-marker">03</div>
+  <div class="section-head reveal"><p class="eyebrow" data-i18n="method.kicker">METHOD</p><h2 data-i18n="method.title">How I build.</h2><p data-i18n="method.body">A repeatable loop: define the system, observe it, model it, test the behavior, refine the result and document what was learned.</p></div>
+  <div class="method-wrap reveal"><div class="method-line" id="methodLine"><article><span>01</span><b data-i18n="method.m1">Frame</b></article><article><span>02</span><b data-i18n="method.m2">Measure</b></article><article><span>03</span><b data-i18n="method.m3">Model</b></article><article><span>04</span><b data-i18n="method.m4">Test</b></article><article><span>05</span><b data-i18n="method.m5">Refine</b></article><article><span>06</span><b data-i18n="method.m6">Document</b></article></div><div class="method-progress"><i id="methodProgress"></i></div></div>
+</section>
+
+<section class="systems section" id="systems">
+  <div class="section-marker">04</div>
+  <div class="section-head reveal"><p class="eyebrow" data-i18n="systems.kicker">SYSTEMS</p><h2 data-i18n="systems.title">Technical work, shown as systems.</h2><p data-i18n="systems.body">Academic simulations and prototype work. Each one is presented with context, principle and limits — not inflated performance claims.</p></div>
+  <div class="project-grid" id="projectGrid"></div>
+</section>
+
+<section class="simulation section" id="simulation">
+  <div class="section-marker">05</div>
+  <div class="sim-shell reveal">
+    <div class="sim-head"><div><p class="eyebrow" data-i18n="sim.kicker">GRIDSENSE / SIMULATION</p><h2 data-i18n="sim.title">Watch a system respond.</h2><p data-i18n="sim.body">A visual simulation only. Values are illustrative and not field measurements.</p></div><button class="mini-btn" id="faultBtn" type="button" data-i18n="sim.fault">INJECT FAULT</button></div>
+    <div class="telemetry">
+      <div><small data-i18n="telemetry.voltage">VOLTAGE</small><strong id="vVal">230.0</strong><i>V</i></div>
+      <div><small data-i18n="telemetry.current">CURRENT</small><strong id="iVal">12.4</strong><i>A</i></div>
+      <div><small data-i18n="telemetry.frequency">FREQUENCY</small><strong id="fVal">50.0</strong><i>Hz</i></div>
+      <div><small data-i18n="telemetry.power">POWER</small><strong id="pVal">2.85</strong><i>kW</i></div>
+    </div>
+    <div class="sim-graph"><canvas id="graphCanvas"></canvas><span id="systemState" data-i18n="sim.nominal">SYSTEM NOMINAL</span><div class="scanline"></div></div>
+  </div>
+</section>
+
+<section class="lab section" id="lab">
+  <div class="section-marker">06</div>
+  <div class="lab-layout">
+    <div class="section-head reveal"><p class="eyebrow" data-i18n="lab.kicker">SYSTEM FAILURE</p><h2 data-i18n="lab.title">Diagnose the fault.</h2><p data-i18n="lab.body">A compact engineering challenge replaces the separate game. Measure first, interpret the evidence, then restore the system.</p><div class="lab-steps"><span class="active" data-i18n="lab.step1">01 · MEASURE</span><span data-i18n="lab.step2">02 · INTERPRET</span><span data-i18n="lab.step3">03 · REPAIR</span></div></div>
+    <div class="lab-panel reveal" id="labPanel">
+      <div class="lab-status"><span id="labStatus" data-i18n="lab.fault">FAULT DETECTED</span><b id="labHint" data-i18n="lab.hintOpen">A protection path is open.</b></div>
+      <div class="circuit"><button class="c-node source" type="button" data-i18n="lab.source">SOURCE</button><div class="c-wire"></div><button class="c-node breaker" id="breakerBtn" type="button" data-i18n="lab.breaker">BREAKER</button><div class="c-wire"></div><button class="c-node load" type="button" data-i18n="lab.load">LOAD</button></div>
+      <div class="measure-row"><button class="mini-btn" id="measureBtn" type="button" data-i18n="lab.measure">MEASURE</button><output id="measurement">—</output><button class="mini-btn" id="repairBtn" type="button" data-i18n="lab.restore">RESTORE</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="field section" id="field">
+  <div class="section-marker">07</div>
+  <div class="field-card reveal"><div class="field-copy"><p class="eyebrow" data-i18n="field.kicker">BGC / SUMMER 2026</p><h2 data-i18n="field.title">Field exposure, not a fictional role.</h2><p data-i18n="field.body">Engineering training at Basrah Gas Company with exposure to CMMS workflows, SAP S/4HANA, maintenance data structures, industrial documentation and safety practices.</p><div class="field-tags"><span>SAP S/4HANA</span><span>CMMS</span><span>HSE</span><span data-i18n="field.tagMaintenance">Maintenance</span></div></div><div class="field-terminal"><span data-i18n="field.log">&gt; FIELD.LOG</span><p data-i18n="field.logline">ASSET / MAINTENANCE / SAFETY</p><strong>07.26 — 08.26</strong><small data-i18n="field.company">BASRAH GAS COMPANY</small></div></div>
+</section>
+
+<section class="signals section" id="credentials">
+  <div class="section-marker">08</div><div class="section-head reveal"><p class="eyebrow" data-i18n="cred.kicker">SIGNALS OF STUDY</p><h2 data-i18n="cred.title">Learning, collected.</h2></div><div class="credentials" id="credentialsGrid"></div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="section-marker">09</div>
+  <div class="contact-wrap reveal"><div><p class="eyebrow" data-i18n="contact.kicker">LEAVE A SIGNAL</p><h2 data-i18n="contact.title">A question, an idea, a project?</h2><p data-i18n="contact.body">Send a signal. I will receive it through email.</p><div class="socials"><a href="mailto:Theabdullahsultan@gmail.com">Email ↗</a><a href="https://github.com/a0pm" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.instagram.com/a.0pm" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.linkedin.com/in/abdullah-sultan-al-maliki-7a3b94420" target="_blank" rel="noreferrer">LinkedIn ↗</a></div><a class="cv-link" href="cv/Abdullah_AlMaliki_CV_English.pdf" download data-i18n="contact.cv">DOWNLOAD CV ↓</a></div>
+  <form id="signalForm"><label><span data-i18n="form.name">Name</span><input name="name" autocomplete="name"></label><label><span data-i18n="form.email">Email</span><input type="email" name="email" autocomplete="email"></label><label><span data-i18n="form.message">Message *</span><textarea name="message" rows="5" required></textarea></label><button class="transmit" type="submit" data-i18n="form.send">TRANSMIT ↗</button><p id="formStatus" role="status"></p></form></div>
+</section>
+</main>
+<footer><span data-i18n="footer.left">AS / ENGINEERING EXPERIENCE</span><span>© 2026 Abdullah Sultan</span></footer>
+<script type="module" src="js/core/app.js"></script>
+</body>
+</html>
